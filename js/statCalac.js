@@ -4,7 +4,7 @@ const base = {
   "ギャラドス": [95, 125, 79, 60, 100, 81]
 }
 function statCalc(base) {
-  const stat;
+  const stat=[];
   const level = 100;
   for (i = 0; i < 32; i++) {
     //hp
