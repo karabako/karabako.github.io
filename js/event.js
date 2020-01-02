@@ -12,8 +12,8 @@ function keydown(event) {
 
 function whl(event) {
   event.preventDefault();
-	document.getElementById("inputStat").value=Number(document.getElementById("inputStat").value)-event.deltaY/100;
+	event.target.value=Number(event.target.value)-event.deltaY/100;
 
 
 }
-document.getElementById("inputStat").onwheel=whl;
+document.getElementById("statA").onwheel=whl;
