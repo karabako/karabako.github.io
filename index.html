@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html><head><title>EvRaidDitto</title><style>
+body {
+  background: #161616;
+  color: #bdbdbd;
+  font-weight: 300;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
+}
+
+</style></head>
+<body>
+
+    <div>
+        <div>3v固定の個体値で5連続行けるかあれするやつ</div>
+        <div>※3vと4vだけ考慮してます  </div>
+        <div>できると出れば4vを捕まえて5連続個体値ok </div>
+        <div>Enterで計算h 区切りはなんでもいけるはず…</div>
+        
+        <input type="text" id="inputIvs" autocomplete="off">
+        <button onclick="calc()">calc</button>
+        <br><input type="number" id="inputStat">
+        <div id="outputIvs">入力個体がでるとこ</div>
+        <div id="res">ここに結果</div>
+    
+        
+  </div>
+  <script src="pazzle.js" charset="utf-8"></script>
+  <script src="statCalac.js" charset="utf-8"></script>
+  <script src="event.js" charset="utf-8"></script>
+
+</body></html>
