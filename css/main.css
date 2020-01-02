@@ -11,6 +11,6 @@ body {
     font-family: Helvetica neue, roboto;
   }
 .inputStat{
-    display: block;
+    display: inline;
     width: 47px;
   }

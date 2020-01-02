@@ -5,26 +5,32 @@
 </head>
 <body>
 
-    <div>
-        <div>3v固定の個体値で5連続行けるかあれするやつ</div>
-        <div>※3vと4vだけ考慮してます  </div>
-        <div>できると出れば4vを捕まえて5連続個体値ok </div>
-        <div>Enterで計算h 区切りはなんでもいけるはず…</div>
-        
-        <input type="text" id="inputIvs" autocomplete="off">
-        <button onclick="calc()">calc</button>
-        <br>
-        <input type="number" id="statH" class="inputStat" value=0>
-        <input type="number" id="statA" class="inputStat" value=0>
-        <input type="number" id="statB" class="inputStat" value=0>
-        <input type="number" id="statC" class="inputStat" value=0>
-        <input type="number" id="statD" class="inputStat" value=0>
-        <input type="number" id="statS" class="inputStat" value=0>
-        <br>
-        <div id="outputIvs">入力個体がでるとこ</div>
-        <div id="res">ここに結果</div>
+  <div>
+    <div>3v固定の個体値で5連続行けるかあれするやつ</div>
+    <div>※3vと4vだけ考慮してます  </div>
+    <div>できると出れば4vを捕まえて5連続個体値ok </div>
+    <div>Enterで計算h 区切りはなんでもいけるはず…</div>
     
-        
+    <input type="text" id="inputIvs" autocomplete="off">
+    <button onclick="calc()">calc</button>
+    <br>
+      
+    <select name="example" id="poke">
+      <option value="メタモン">メタモン</option>
+      <option value="ギャラドス">ギャラドス</option>
+      <option value="サンプル3">サンプル3</option>
+    </select>
+    <input type="number" id="statH" class="inputStat" value=0>
+    <input type="number" id="statA" class="inputStat" value=0>
+    <input type="number" id="statB" class="inputStat" value=0>
+    <input type="number" id="statC" class="inputStat" value=0>
+    <input type="number" id="statD" class="inputStat" value=0>
+    <input type="number" id="statS" class="inputStat" value=0>
+    <br>
+    <div id="outputIvs">入力個体がでるとこ</div>
+    <div id="res">ここに結果</div>
+
+      
   </div>
   <script src="js/pazzle.js" charset="utf-8"></script>
   <script src="js/statCalac.js" charset="utf-8"></script>
