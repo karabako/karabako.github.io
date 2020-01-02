@@ -10,6 +10,7 @@ body {
     text-align: center;
     font-family: Helvetica neue, roboto;
   }
-  .inputStat{
+.inputStat{
+    display: block;
     width: 47px;
   }
