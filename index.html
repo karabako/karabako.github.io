@@ -19,14 +19,20 @@ body {
 
     <div>
         <div>3v固定の個体値で5連続行けるかあれするやつ</div>
-        <div>3v固定の個体値で5連続行けるかあれするやつ</div>
         <div>※3vと4vだけ考慮してます  </div>
         <div>できると出れば4vを捕まえて5連続個体値ok </div>
         <div>Enterで計算h 区切りはなんでもいけるはず…</div>
         
         <input type="text" id="inputIvs" autocomplete="off">
         <button onclick="calc()">calc</button>
-        <br><input type="number" id="inputStat">
+        <br>
+        <input type="number" id="StatH" size=3>
+        <input type="number" id="StatA" size=3>
+        <input type="number" id="StatB" size=3>
+        <input type="number" id="StatC" size=3>
+        <input type="number" id="StatD" size=3>
+        <input type="number" id="StatS" size=3>
+        <br>
         <div id="outputIvs">入力個体がでるとこ</div>
         <div id="res">ここに結果</div>
     
